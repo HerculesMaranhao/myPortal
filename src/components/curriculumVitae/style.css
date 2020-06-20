@@ -1,0 +1,67 @@
+.formCurriculum2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.academics-infos {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    cursor: pointer;
+}
+
+.active, .academics-infos:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.accordion-title > div{
+    margin-left: 10px;
+}
+
+.accordion-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.tech-icons {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.grid-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiButtonBase-root {
+    position: fixed !important;
+    right: 10px;
+    bottom: 70px;
+}
+
+.download-curriculum {
+    color: #f8da59 !important;
+    background-color: #000 !important;
+}
+

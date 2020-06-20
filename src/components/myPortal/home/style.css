@@ -1,0 +1,64 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./../../../assets/img/fundo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 60%;
+    box-shadow: 1px 1px 1px 1px #000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.avatar-photo {
+    background-image: url(./../../../assets/img/eu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
+
+.avatar-name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.infos {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentation {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.paragraph {
+    padding: 5px;
+    margin-top: 5px;
+    max-width: 100%;
+}
